@@ -5,6 +5,10 @@ VisualStudioVersion = 16.0.30309.148
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EorzeaMapExtractor.Cli", "EorzeaMapExtractor.Cli\EorzeaMapExtractor.Cli.csproj", "{46D27CD9-F3EA-4227-92B1-EC980C4F1F4B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SaintCoinach", "SaintCoinach\SaintCoinach\SaintCoinach.csproj", "{8A7D65EB-3DE3-4631-B286-CC73A3126002}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotSquish", "SaintCoinach\DotSquish\DotSquish.csproj", "{F9681545-4BEA-4FD3-9AB9-A67BD37AB36D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{46D27CD9-F3EA-4227-92B1-EC980C4F1F4B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{46D27CD9-F3EA-4227-92B1-EC980C4F1F4B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{46D27CD9-F3EA-4227-92B1-EC980C4F1F4B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8A7D65EB-3DE3-4631-B286-CC73A3126002}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8A7D65EB-3DE3-4631-B286-CC73A3126002}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8A7D65EB-3DE3-4631-B286-CC73A3126002}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8A7D65EB-3DE3-4631-B286-CC73A3126002}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F9681545-4BEA-4FD3-9AB9-A67BD37AB36D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F9681545-4BEA-4FD3-9AB9-A67BD37AB36D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F9681545-4BEA-4FD3-9AB9-A67BD37AB36D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F9681545-4BEA-4FD3-9AB9-A67BD37AB36D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
