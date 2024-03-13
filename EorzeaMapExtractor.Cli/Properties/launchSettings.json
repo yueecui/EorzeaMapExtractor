@@ -1,0 +1,9 @@
+{
+  "profiles": {
+    "EorzeaMapExtractor.Cli": {
+      "commandName": "Project",
+      "commandLineArgs": "\"C:\\Games\\最终幻想XIV\" map \"source\"",
+      "workingDirectory": "D:\\FF14\\ff14-allinone-map\\EorzeaMapExtractor.Cli"
+    }
+  }
+}

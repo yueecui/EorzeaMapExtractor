@@ -1,13 +1,12 @@
-﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.30309.148
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34622.214
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EorzeaMapExtractor.Cli", "EorzeaMapExtractor.Cli\EorzeaMapExtractor.Cli.csproj", "{46D27CD9-F3EA-4227-92B1-EC980C4F1F4B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EorzeaMapExtractor.Cli", "EorzeaMapExtractor.Cli\EorzeaMapExtractor.Cli.csproj", "{46D27CD9-F3EA-4227-92B1-EC980C4F1F4B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SaintCoinach", "SaintCoinach\SaintCoinach\SaintCoinach.csproj", "{8A7D65EB-3DE3-4631-B286-CC73A3126002}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SaintCoinach", "SaintCoinach\SaintCoinach\SaintCoinach.csproj", "{8A7D65EB-3DE3-4631-B286-CC73A3126002}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotSquish", "SaintCoinach\DotSquish\DotSquish.csproj", "{F9681545-4BEA-4FD3-9AB9-A67BD37AB36D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DotSquish", "SaintCoinach\DotSquish\DotSquish.csproj", "{F9681545-4BEA-4FD3-9AB9-A67BD37AB36D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

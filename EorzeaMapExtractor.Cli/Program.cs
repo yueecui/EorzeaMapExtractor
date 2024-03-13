@@ -85,6 +85,11 @@ namespace EorzeaMapExtractor.Cli
             foreach (var map in allMaps)
             {
                 count++;
+                if (map.Id.ToString() == "")
+                {
+                    continue;
+                }
+
                 var fileName = map.Id.ToString().Replace("/", "_") + ".png";
                 Console.Write($"[{count.ToString().PadLeft(padLength)}/{totalMapsStr}] Exporting Map :{fileName}: ...");
                 var outFile = new FileInfo(Path.Combine(dest, fileName));
@@ -99,15 +104,22 @@ namespace EorzeaMapExtractor.Cli
                     outFile.Directory.Create();
                 }
 
-                var img = map.MediumImage;
-                if (img == null)
+                try
                 {
-                    Console.WriteLine(" no image found.");
-                    continue;
-                }
+                    var img = map.MediumImage;
+                    if (img == null)
+                    {
+                        Console.WriteLine(" no image found.");
+                        continue;
+                    }
 
-                img.Save(outFile.FullName, format);
-                Console.WriteLine(" OK.");
+                    img.Save(outFile.FullName, format);
+                    Console.WriteLine(" OK.");
+                }
+                catch (Exception ex)
+                {
+                    Console.WriteLine($" Failed: {ex.Message}");
+                }
             }
         }
 
